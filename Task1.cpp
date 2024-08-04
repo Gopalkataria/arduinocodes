@@ -1,13 +1,14 @@
-// code for task : 1 ( on board LED )
+// code for task : 1 ( blinking LED )
 
+const int ledPin = 9;
 
 void setup() {
- pinMode(LED_BUILTIN,OUTPUT);
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-    digitalWrite(LED_BUILTIN, HIGH) ; 
-    delay(1000) ; 
-    digitalWrite(LED_BUILTIN,LOW) ; 
-    delay(1000) ; 
+  digitalWrite(ledPin, HIGH);
+  delay(1000);
+  digitalWrite(ledPin, LOW);
+  delay(1000);
 }
