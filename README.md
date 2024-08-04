@@ -3,10 +3,8 @@
 This repository contains code for the induction ERC Arduino workshop, IIIT Hyderabad
 
 
--  [Task1. On board LED](Task1.cpp) 
+-  [Task1. Blinking LED](Task1.cpp) 
 
-
--  [Task1. LED blink](Task1.2.cpp)
 
 
 -  [Task2. IR sensor](Task2.2.cpp)
