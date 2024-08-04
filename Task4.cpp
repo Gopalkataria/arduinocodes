@@ -26,7 +26,7 @@ void loop()
     }
     Serial.print("\t");           //use if(value > threshold) to get the state of a button
 
-    Serial.println(value0);             //send actual reading
+    Serial.println(value);             //send actual reading
   
     delay(100);
 }
